@@ -19,7 +19,7 @@ inicio
   pesoideal <- (62.1 * altura) - 44.7
   
  fimse
- escreval("O SEU PESO IDEAL É;",pesoideal,"kg")
+ escreval("O SEU PESO IDEAL Ã‰;",pesoideal,"kg")
  
 
   
