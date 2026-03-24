@@ -1,16 +1,16 @@
-algoritmo "QUESTÃO 5"
-//FEITO POR PEDRO HENRIQUE FLORÊNCIO MOTA, 01867844
+algoritmo "QUESTÃƒO 5"
+//FEITO POR PEDRO HENRIQUE FLORÃŠNCIO MOTA, 01867844
 var
    n_conta : inteiro
    saldo, deb, cred, saldo_at : inteiro
 inicio
-   escreval("DIGITE O NÚMERO DA CONTA: ")
+   escreval("DIGITE O NÃšMERO DA CONTA: ")
    leia(n_conta)
    escreval ("DIGITE O SALDO: ")
    leia(saldo)
-   escreval("DIGITE O DÉBITO: ")
+   escreval("DIGITE O DÃ‰BITO: ")
    leia(deb)
-   escreva("DIGITE O CRÉDITO: ")
+   escreva("DIGITE O CRÃ‰DITO: ")
    leia(cred)
 
    saldo_at <- saldo - deb + cred
