@@ -1,5 +1,5 @@
 algoritmo "ATIVIDADE 9 "
- // ATIVIDADE 9 - L”GICA DE PROGRAMA«√O
+ // ATIVIDADE 9 - L√ìGICA DE PROGRAMA√á√ÉO
 
 var
    codigoDeUsuario, codigoArmazenado, Senha, senhaArmazenada : inteiro
@@ -10,13 +10,13 @@ inicio
    escreval("QUAL O SEU NOME?")
    leia(nome)
    Limpatela
-   escreval("OL¡, ",maiusc(nome),"! SEJA MUITO BEM VINDO")
+   escreval("OL√Å, ",maiusc(nome),"! SEJA MUITO BEM VINDO")
    enquanto codigoDeUsuario <> codigoArmazenado faca
-      escreval("DIGITE SEU CODIGO DE USU¡RIO")
+      escreval("DIGITE SEU CODIGO DE USU√ÅRIO")
       leia(codigoDeUsuario)
       LimpaTela
       se codigoDeUsuario <> codigoArmazenado entao
-         escreval("CODIGO DE US⁄ARIO INCORRETO")
+         escreval("CODIGO DE US√öARIO INCORRETO")
       fimse
    fimenquanto
    enquanto Senha <> senhaArmazenada faca
