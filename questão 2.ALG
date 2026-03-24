@@ -1,4 +1,4 @@
-Algoritmo "QUEST√O 2"
+Algoritmo "QUEST√ÉO 2"
 
 Var
        ncs : inteiro
@@ -7,9 +7,9 @@ Inicio
    escreva("ESCREVA O ANO DE NASCIMENTO: ")
    LEIA(ncs)
    se (2026 - ncs <= 18) entao
-      escreva("VOC  EST¡ APTO PARA VOTAR!")
+      escreva("VOC√ä EST√Å APTO PARA VOTAR!")
    senao
-      escreva("VOC  N√O EST¡ APTO PARA VOTAR!")
+      escreva("VOC√ä N√ÉO EST√Å APTO PARA VOTAR!")
    fimse
 
 
