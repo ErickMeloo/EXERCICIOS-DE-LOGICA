@@ -1,4 +1,5 @@
 Algoritmo "QUESTÃO 2"
+//PEDRO HENRIQUE FLORÊNCIO MOTA, 01867844
 
 Var
        ncs : inteiro
