@@ -1,5 +1,5 @@
-algoritmo "Quest„o 7"
-//PEDRO HENRIQUE FLOREN NCIO MOTA, 01867844
+algoritmo "Quest√£o 7"
+//PEDRO HENRIQUE FLOREN√äNCIO MOTA, 01867844
 
 var
    nomeProduto : caractere
@@ -11,7 +11,7 @@ inicio
    leia(nomeProduto)
    escreva("DIGITE A QUANTIDADE DO PRODUTO: ")
    leia(quantidadeProduto)
-   escreva("DIGITE O PRE«O UNIT¡RIO: ")
+   escreva("DIGITE O PRE√áO UNIT√ÅRIO: ")
    leia(precoUni)
    total <- (quantidadeProduto * precoUni)
    se (quantidadeProduto <= 5) entao
