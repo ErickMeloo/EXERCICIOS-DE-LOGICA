@@ -8,14 +8,14 @@ inicio
  escreval("-------------(      )-----------------")
  escreval("SEJA BEM VINDO AO POSTO UNINASSSAU")
  escreval("-------------(      )-----------------")
- escreval("QUAL COMBUSTIVEL VOC  DESEJA COLOCAR EM SEU VEÕCULO?")
+ escreval("QUAL COMBUSTIVEL VOC√ä DESEJA COLOCAR EM SEU VE√çCULO?")
  escreval("1 - PARA GASOLINA")
- escreval("2 - PARA ¡LCOOL")
+ escreval("2 - PARA √ÅLCOOL")
  leia(gasOUalc)
  Limpatela
  escolha gasOUalc
   caso 1
-    escreval("QUANTOS LITROS DE GASOLINA VOC  DESEJA COLOCAR?")
+    escreval("QUANTOS LITROS DE GASOLINA VOC√ä DESEJA COLOCAR?")
     leia(gasolina)
     se gasolina <= 20 entao
     Valortotal <- gasolina * (3.30 - (3.30 * 0.03))
@@ -29,7 +29,7 @@ inicio
    escreval("LITROS: ", gasolina)
    escreval("TOTAL PARA PAGAMENTO: R$ ", Valortotal:4:2)
   caso 2
-   escreval("QUANTOS LITROS DE ALCOOL VOC  DESEJA COLOCAR?")
+   escreval("QUANTOS LITROS DE ALCOOL VOC√ä DESEJA COLOCAR?")
     leia(alcool)
     se alcool <= 20 entao
     Valortotal <- alcool * (2.90 - (2.90 * 0.04))
@@ -43,7 +43,7 @@ inicio
    escreval("LITROS: ", alcool)
    escreval("TOTAL PARA PAGAMENTO: R$ ", Valortotal:4:2)
     outrocaso
-     escreval("OPC√O INV¡LIDA")
+     escreval("OPC√ÉO INV√ÅLIDA")
   fimescolha
 
     
